@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="How the personal Research connection accesses, uses, stores and shares Google Workspace data.">
+  <title>Privacy · Research</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header><a class="brand" href="./">Research</a><nav aria-label="Main"><a href="./">Home</a><a href="https://github.com/askrbayern/research-workspace-info">Source</a></nav></header>
+  <main>
+    <p class="eyebrow">Personal tool · Updated 11 October 2026</p>
+    <h1>Privacy notice</h1>
+    <p class="lead">Research is a personal Google Workspace connection operated by askrbayern. It is used for the owner's research work and is not offered as a public account-based service.</p>
+    <section><h2>Data accessed and purpose</h2>
+      <p>With the owner's Google authorization, Research can read file metadata and content in Drive, Docs, Sheets and Slides, and create or update requested files. Metadata can include file identifiers, names, locations and modification information. The granted permissions may cover the account broadly; actual tasks are limited to the files and operations selected by the owner.</p>
+      <p>This access supports research-note organization, dataset-catalog maintenance and preparation of collaboration documents. Research does not request Gmail, Calendar or Google Workspace administration access.</p>
+    </section>
+    <section><h2>Processing and sharing</h2>
+      <p>Google receives API requests needed to perform each operation. Selected content may also be sent to the owner's configured AI services, currently Devin (Cognition) and OpenAI, when needed for an authorized analysis or editing task. Their applicable account settings and service policies govern their processing and retention. Credentials are not intentionally included in prompts or research outputs.</p>
+      <p>Research does not sell Google user data or use it for advertising. The application does not use Google Workspace data to train generalized AI models. It does not publish research files or change their sharing settings unless the owner specifically instructs it to do so.</p>
+      <p>Research's use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements.</p>
+    </section>
+    <section><h2>Storage and retention</h2>
+      <p>OAuth credentials are held in the local tool's encrypted credential store, protected by the operating-system keyring. Source files remain in their selected Google or local research locations. Working content, generated outputs and AI conversation records can remain in those locations or the configured services until the owner removes them under the services' available controls.</p>
+      <p>Temporary local inputs are removed after verified delivery when no longer needed. Minimal source identifiers, fingerprints and operation receipts may be kept locally to avoid duplicate processing and recover interrupted work.</p>
+    </section>
+    <section><h2>Control, revocation and deletion</h2>
+      <p>The owner can revoke Research's access in <a href="https://myaccount.google.com/connections">Google Account connections</a>, remove its locally stored authorization, and delete retained files or conversations through the relevant application. Revocation stops future authorized API access; it does not itself delete files or prior service conversation history.</p>
+      <p>Questions or correction requests can be raised through the <a href="https://github.com/askrbayern/research-workspace-info/issues">public repository</a>. Do not include private files, account details or credentials in a public issue.</p>
+    </section>
+    <section><h2>This website</h2>
+      <p>This informational website contains no sign-in, forms, analytics scripts or application cookies. GitHub Pages hosts it and may process routine access information under <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>. This website does not receive or store research files or Google OAuth tokens.</p>
+    </section>
+  </main>
+  <footer><a href="./">Research home</a> · Maintained by askrbayern</footer>
+</body>
+</html>
